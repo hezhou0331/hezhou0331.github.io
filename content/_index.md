@@ -38,11 +38,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am passionate about **World Action Models** and **3D Computer Vision (3DCV)**, exploring how AI can understand and interact with the physical world through visual perception and predictive modeling.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research focuses on bridging the gap between computer vision and embodied AI, developing systems that can reason about 3D scenes, predict future states, and take meaningful actions in dynamic environments.
 
-        Please reach out to collaborate 😃
+        I'm interested in collaborating on projects related to visual understanding, action prediction, and embodied intelligence. Feel free to reach out! 😃
     design:
       columns: '1'
   - block: collection
@@ -75,6 +75,26 @@ sections:
           - events
     design:
       view: card
+  - block: markdown
+    content:
+      title: '🏆 Awards & Honors'
+      text: |-
+        - **National College Physics Competition (Regional)** — First Prize (2024)
+        - **Tsinghua University 9th AI Challenge: Cloud Factory Competition** — Reinforcement Learning Track Special Prize (2024)
+        - **21st Tsinghua University "Qingfeng Mingbian" Debate Cultural Festival** — Champion (2024)
+        - **2025 Tsinghua University Student Social Practice** — Gold Award (2025)
+        - **Tsinghua University "Thinking of the Source, Serving Society"** — Excellent Student Development Program (2024)
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: '🎓 Campus Experience'
+      text: |-
+        - **Class Leader**, Tsinghua University AI-Driven Personalized Learning Class
+        - **Hardware Department Member**, Automation Department Science and Technology Association
+        - **Director**, Automation Department Practical Volunteer Group
+    design:
+      columns: '1'
   - block: collection
     id: news
     content:

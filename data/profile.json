@@ -1,0 +1,71 @@
+{
+  "profile": {
+    "name": "Jiangyu Liu",
+    "nameChinese": "刘江宇",
+    "role": "Undergraduate Student",
+    "university": "Tsinghua University",
+    "location": "Beijing, China",
+    "avatar": "static/profile.jpg",
+    "email": "jy-liu24@mails.tsinghua.edu.cn",
+    "socials": {
+      "github": "https://github.com/hezhou0331",
+      "googleScholar": "https://scholar.google.com/"
+    }
+  },
+  "aboutMe": [
+    "I am an undergraduate student in the Department of Automation at Tsinghua University.",
+    "My current research interests include World Action Models and 3D Computer Vision (3DCV). I am interested in building intelligent systems that understand the physical world, reason over 3D scenes, and predict actions and future states from visual observations."
+  ],
+  "researchInterests": [
+    "World Action Model",
+    "3D Computer Vision",
+    "Embodied AI",
+    "Visual Understanding"
+  ],
+  "awards": [
+    {
+      "title": "National College Physics Competition (Regional)",
+      "description": "First Prize",
+      "year": "2024",
+      "icon": "medal"
+    },
+    {
+      "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
+      "description": "Special Prize, Reinforcement Learning Track",
+      "year": "2024",
+      "icon": "spark"
+    },
+    {
+      "title": "21st Tsinghua University Qingfeng Mingbian Debate Cultural Festival",
+      "description": "Champion",
+      "year": "2024",
+      "icon": "award"
+    },
+    {
+      "title": "Tsinghua University Student Social Practice",
+      "description": "Gold Award",
+      "year": "2025",
+      "icon": "star"
+    },
+    {
+      "title": "Thinking of the Source, Serving Society",
+      "description": "Excellent Student Development Program, Tsinghua University",
+      "year": "2024",
+      "icon": "leaf"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Publications",
+      "text": "Coming soon."
+    },
+    {
+      "title": "Projects",
+      "text": "Coming soon."
+    },
+    {
+      "title": "Experience",
+      "text": "Coming soon."
+    }
+  ]
+}

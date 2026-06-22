@@ -24,28 +24,28 @@
   ],
   "awards": [
     {
+      "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
+      "description": "Special Prize (1st Place), Reinforcement Learning Track",
+      "year": "2026",
+      "icon": "spark"
+    },
+    {
       "title": "National College Physics Competition (Regional)",
       "description": "First Prize",
       "year": "2025",
       "icon": "medal"
     },
     {
-      "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
-      "description": "Special Prize, Reinforcement Learning Track",
-      "year": "2026",
-      "icon": "spark"
+      "title": "Tsinghua University Student Social Practice",
+      "description": "Gold Award",
+      "year": "2025",
+      "icon": "star"
     },
     {
       "title": "21st Tsinghua University Qingfeng Mingbian Debate Cultural Festival",
       "description": "Champion",
       "year": "2024",
       "icon": "award"
-    },
-    {
-      "title": "Tsinghua University Student Social Practice",
-      "description": "Gold Award",
-      "year": "2025",
-      "icon": "star"
     },
     {
       "title": "Thinking of the Source, Serving Society",

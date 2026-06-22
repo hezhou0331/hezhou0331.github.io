@@ -25,7 +25,7 @@
   ],
   "campusExperienceLines": [
     "绩点：4.00/4.00 | 已修学分：71",
-    "主要课程：人工智能原理；信号与系统分析等",
+    "主要课程：人工智能原理；信号与系统等",
     "社工岗位：自动化系实践志愿组组长、自动化系通班班长、自动化系科协硬件部成员"
   ],
   "awards": [
@@ -34,34 +34,39 @@
       "description": "强化学习赛道 特等奖（第一名）",
       "year": "2026",
       "icon": "spark",
-      "logo": "data/image/tsinghua.jpg"
+      "logo": "data/image/tsinghua.jpg",
+      "certificate": "data/image/人工智能挑战赛特等奖.jpg"
     },
     {
       "title": "全国大学生物理竞赛（地区赛）",
       "description": "一等奖",
       "year": "2025",
-      "icon": "medal"
+      "icon": "medal",
+      "certificate": "data/image/大学生物理竞赛一等奖.pdf"
     },
     {
       "title": "2025年清华大学学生社会实践",
       "description": "“清茶烛光”金奖支队",
       "year": "2025",
       "icon": "star",
-      "logo": "data/image/tsinghua.jpg"
+      "logo": "data/image/tsinghua.jpg",
+      "certificate": "data/image/清茶烛光实践金奖.pdf"
     },
     {
       "title": "清华大学第二十一届「清锋明辩」辩论文化节",
-      "description": "冠军",
+      "description": "自动化-日新联队 冠军",
       "year": "2024",
       "icon": "award",
-      "logo": "data/image/tsinghua.jpg"
+      "logo": "data/image/tsinghua.jpg",
+      "certificate": "data/image/清锋明辩辩论赛冠军.pdf"
     },
     {
       "title": "清华大学「思源计划」",
       "description": "“饮水思源、服务社会”优秀学生培养计划",
       "year": "2024",
       "icon": "leaf",
-      "logo": "data/image/tsinghua.jpg"
+      "logo": "data/image/tsinghua.jpg",
+      "certificate": "data/image/思源入期证书.pdf"
     }
   ],
   "sections": [

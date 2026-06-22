@@ -69,7 +69,15 @@ fetch("data/profile.json")
     const awards = document.querySelector("[data-awards]");
     if (awards) {
       awards.replaceChildren(...data.awards.map((award) => {
-        const card = createElement("article", "award-card");
+        const card = award.certificate
+          ? createElement("a", "award-card award-link")
+          : createElement("article", "award-card");
+        if (award.certificate) {
+          card.href = award.certificate;
+          card.target = "_blank";
+          card.rel = "noopener noreferrer";
+          card.setAttribute("aria-label", `查看获奖材料：${award.title}`);
+        }
         const icon = createElement("div", `award-icon${award.logo ? " award-logo" : ""}`);
         icon.setAttribute("aria-hidden", "true");
         if (award.logo) {
@@ -83,6 +91,9 @@ fetch("data/profile.json")
 
         const body = document.createElement("div");
         body.append(createElement("h3", "", award.title), createElement("p", "", award.description));
+        if (award.certificate) {
+          body.append(createElement("p", "award-certificate", "查看获奖材料"));
+        }
 
         const year = createElement("time", "", award.year);
         card.append(icon, body, year);

@@ -238,6 +238,17 @@ h2 {
   box-shadow: 0 8px 22px rgba(18, 38, 63, 0.04);
 }
 
+.award-link {
+  text-decoration: none;
+  transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.award-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 28px rgba(18, 38, 63, 0.08);
+}
+
 .award-icon {
   display: grid;
   width: 48px;
@@ -273,6 +284,13 @@ h2 {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.award-certificate {
+  margin-top: 8px;
+  color: var(--accent) !important;
+  font-size: 0.86rem !important;
+  font-weight: 800;
 }
 
 .award-card time {

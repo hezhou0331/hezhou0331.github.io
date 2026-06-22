@@ -27,7 +27,8 @@
       "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
       "description": "Special Prize (1st Place), Reinforcement Learning Track",
       "year": "2026",
-      "icon": "spark"
+      "icon": "spark",
+      "logo": "static/logos/tsinghua.svg"
     },
     {
       "title": "National College Physics Competition (Regional)",
@@ -39,19 +40,22 @@
       "title": "Tsinghua University Student Social Practice",
       "description": "Gold Award",
       "year": "2025",
-      "icon": "star"
+      "icon": "star",
+      "logo": "static/logos/tsinghua.svg"
     },
     {
       "title": "21st Tsinghua University Qingfeng Mingbian Debate Cultural Festival",
       "description": "Champion",
       "year": "2024",
-      "icon": "award"
+      "icon": "award",
+      "logo": "static/logos/tsinghua.svg"
     },
     {
       "title": "Thinking of the Source, Serving Society",
       "description": "Excellent Student Development Program, Tsinghua University",
       "year": "2024",
-      "icon": "leaf"
+      "icon": "leaf",
+      "logo": "static/logos/tsinghua.svg"
     }
   ],
   "sections": [

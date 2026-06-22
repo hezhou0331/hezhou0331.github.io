@@ -228,6 +228,18 @@ h2 {
   font-weight: 800;
 }
 
+.award-logo {
+  overflow: hidden;
+  background: #f4efff;
+  color: #6f2dbd;
+}
+
+.award-logo img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
 .award-card h3 {
   margin-bottom: 3px;
   font-size: 1rem;

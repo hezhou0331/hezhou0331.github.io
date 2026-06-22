@@ -57,8 +57,16 @@ fetch("data/profile.json")
     if (awards) {
       awards.replaceChildren(...data.awards.map((award) => {
         const card = createElement("article", "award-card");
-        const icon = createElement("div", "award-icon", iconMap[award.icon] || "●");
+        const icon = createElement("div", `award-icon${award.logo ? " award-logo" : ""}`);
         icon.setAttribute("aria-hidden", "true");
+        if (award.logo) {
+          const logo = document.createElement("img");
+          logo.src = award.logo;
+          logo.alt = "";
+          icon.append(logo);
+        } else {
+          icon.textContent = iconMap[award.icon] || "●";
+        }
 
         const body = document.createElement("div");
         body.append(createElement("h3", "", award.title), createElement("p", "", award.description));

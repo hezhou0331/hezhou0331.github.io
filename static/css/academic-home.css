@@ -143,6 +143,12 @@ h1 {
   fill: currentColor;
 }
 
+.social-links img {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+}
+
 .main-content {
   width: min(880px, calc(100% - 52px));
   margin: 0 auto;
@@ -199,6 +205,45 @@ h2 {
   font-weight: 700;
 }
 
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.experience-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 8px 22px rgba(18, 38, 63, 0.04);
+}
+
+.experience-card h3 {
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.experience-value {
+  margin-bottom: 0;
+  color: var(--text);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.experience-card ul {
+  padding-left: 18px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.experience-card li + li {
+  margin-top: 8px;
+}
+
 .award-grid {
   display: grid;
   gap: 14px;
@@ -230,14 +275,15 @@ h2 {
 
 .award-logo {
   overflow: hidden;
-  background: #f4efff;
+  background: #ffffff;
   color: #6f2dbd;
 }
 
 .award-logo img {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .award-card h3 {
@@ -273,6 +319,10 @@ h2 {
   .main-content {
     width: min(760px, calc(100% - 40px));
     padding: 48px 0 64px;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
   }
 }
 

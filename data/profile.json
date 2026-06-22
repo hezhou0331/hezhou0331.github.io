@@ -22,13 +22,34 @@
     "Embodied AI",
     "Visual Understanding"
   ],
+  "campusExperience": [
+    {
+      "label": "GPA",
+      "value": "4.00/4.00"
+    },
+    {
+      "label": "Major Courses",
+      "items": [
+        "Artificial Intelligence Principles",
+        "Signal and System Analysis"
+      ]
+    },
+    {
+      "label": "Leadership & Service",
+      "items": [
+        "Class Leader, Tsinghua University AI-Driven Personalized Learning Class",
+        "Leader, Automation Department Practical Volunteer Group",
+        "Hardware Department Member, Automation Department Science and Technology Association"
+      ]
+    }
+  ],
   "awards": [
     {
       "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
       "description": "Special Prize (1st Place), Reinforcement Learning Track",
       "year": "2026",
       "icon": "spark",
-      "logo": "static/logos/tsinghua.svg"
+      "logo": "data/image/tsinghua.jpg"
     },
     {
       "title": "National College Physics Competition (Regional)",
@@ -41,21 +62,21 @@
       "description": "Gold Award",
       "year": "2025",
       "icon": "star",
-      "logo": "static/logos/tsinghua.svg"
+      "logo": "data/image/tsinghua.jpg"
     },
     {
       "title": "21st Tsinghua University Qingfeng Mingbian Debate Cultural Festival",
       "description": "Champion",
       "year": "2024",
       "icon": "award",
-      "logo": "static/logos/tsinghua.svg"
+      "logo": "data/image/tsinghua.jpg"
     },
     {
       "title": "Thinking of the Source, Serving Society",
       "description": "Excellent Student Development Program, Tsinghua University",
       "year": "2024",
       "icon": "leaf",
-      "logo": "static/logos/tsinghua.svg"
+      "logo": "data/image/tsinghua.jpg"
     }
   ],
   "sections": [

@@ -53,6 +53,26 @@ fetch("data/profile.json")
       interests.replaceChildren(...data.researchInterests.map((interest) => createElement("span", "", interest)));
     }
 
+    const campusExperience = document.querySelector("[data-campus-experience]");
+    if (campusExperience && data.campusExperience) {
+      campusExperience.replaceChildren(...data.campusExperience.map((entry) => {
+        const card = createElement("article", "experience-card");
+        card.append(createElement("h3", "", entry.label));
+
+        if (entry.value) {
+          card.append(createElement("p", "experience-value", entry.value));
+        }
+
+        if (entry.items) {
+          const list = document.createElement("ul");
+          entry.items.forEach((item) => list.append(createElement("li", "", item)));
+          card.append(list);
+        }
+
+        return card;
+      }));
+    }
+
     const awards = document.querySelector("[data-awards]");
     if (awards) {
       awards.replaceChildren(...data.awards.map((award) => {

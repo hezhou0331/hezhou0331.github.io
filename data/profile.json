@@ -2,9 +2,10 @@
   "profile": {
     "name": "Jiangyu Liu",
     "nameChinese": "刘江宇",
-    "role": "Undergraduate Student",
-    "university": "Tsinghua University",
-    "location": "Beijing, China",
+    "role": "本科生",
+    "university": "清华大学自动化系",
+    "subtitle": "清华大学自动化系本科生",
+    "location": "北京，中国",
     "avatar": "static/profile.jpg",
     "email": "jy-liu24@mails.tsinghua.edu.cn",
     "socials": {
@@ -13,53 +14,53 @@
     }
   },
   "aboutMe": [
-    "I am an undergraduate student in the Department of Automation at Tsinghua University.",
-    "My current research interests include World Action Models and 3D Computer Vision (3DCV). I am interested in building intelligent systems that understand the physical world, reason over 3D scenes, and predict actions and future states from visual observations."
+    "我是清华大学自动化系本科生。",
+    "目前我的研究兴趣包括世界动作模型（World Action Model）和三维计算机视觉（3D Computer Vision, 3DCV）。我关注智能系统如何理解物理世界、建模三维场景，并基于视觉观测进行动作推理与未来状态预测。"
   ],
   "researchInterests": [
-    "World Action Model",
-    "3D Computer Vision",
-    "Embodied AI",
-    "Visual Understanding"
+    "世界动作模型",
+    "三维计算机视觉",
+    "具身智能",
+    "视觉理解"
   ],
   "campusExperienceLines": [
-    "GPA: 4.00/4.00 | Credits Completed: 71",
-    "Major Courses: Artificial Intelligence Principles; Signal and System Analysis",
-    "Class Leader, Tsinghua University AI-Driven Personalized Learning Class",
-    "Leader, Automation Department Practical Volunteer Group",
-    "Hardware Department Member, Automation Department Science and Technology Association"
+    "绩点：4.00/4.00 | 已修学分：71",
+    "主要课程：人工智能原理；信号与系统分析",
+    "通班班长：清华大学人工智能驱动的个性化学习通班",
+    "社工岗位：自动化系实践志愿组组长",
+    "社工岗位：自动化系科技协会硬件部成员"
   ],
   "awards": [
     {
-      "title": "Tsinghua University 9th AI Challenge: Cloud Factory Competition",
-      "description": "Special Prize (1st Place), Reinforcement Learning Track",
+      "title": "清华大学第九届人工智能挑战赛：云工厂竞赛",
+      "description": "强化学习赛道 特等奖（第一名）",
       "year": "2026",
       "icon": "spark",
       "logo": "data/image/tsinghua.jpg"
     },
     {
-      "title": "National College Physics Competition (Regional)",
-      "description": "First Prize",
+      "title": "全国大学生物理竞赛（地区赛）",
+      "description": "一等奖",
       "year": "2025",
       "icon": "medal"
     },
     {
-      "title": "Tsinghua University Student Social Practice",
-      "description": "Gold Award",
+      "title": "清华大学学生社会实践",
+      "description": "金奖",
       "year": "2025",
       "icon": "star",
       "logo": "data/image/tsinghua.jpg"
     },
     {
-      "title": "21st Tsinghua University Qingfeng Mingbian Debate Cultural Festival",
-      "description": "Champion",
+      "title": "清华大学第二十一届「清锋明辩」辩论文化节",
+      "description": "冠军",
       "year": "2024",
       "icon": "award",
       "logo": "data/image/tsinghua.jpg"
     },
     {
-      "title": "Thinking of the Source, Serving Society",
-      "description": "Excellent Student Development Program, Tsinghua University",
+      "title": "清华大学「思源计划」",
+      "description": "优秀学生发展项目",
       "year": "2024",
       "icon": "leaf",
       "logo": "data/image/tsinghua.jpg"
@@ -67,16 +68,16 @@
   ],
   "sections": [
     {
-      "title": "Publications",
-      "text": "Coming soon."
+      "title": "论文发表",
+      "text": "即将更新。"
     },
     {
-      "title": "Projects",
-      "text": "Coming soon."
+      "title": "项目经历",
+      "text": "即将更新。"
     },
     {
-      "title": "Experience",
-      "text": "Coming soon."
+      "title": "其他经历",
+      "text": "即将更新。"
     }
   ]
 }

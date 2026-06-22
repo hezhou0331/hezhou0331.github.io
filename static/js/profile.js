@@ -27,11 +27,11 @@ fetch("data/profile.json")
   .then((response) => response.json())
   .then((data) => {
     const profile = data.profile;
-    document.title = `${profile.name} | Academic Homepage`;
+    document.title = `${profile.name} | 个人主页`;
 
     setText("[data-profile-name]", profile.name);
     setText("[data-profile-name-chinese]", profile.nameChinese);
-    setText("[data-profile-role]", `${profile.role} at ${profile.university}`);
+    setText("[data-profile-role]", profile.subtitle || `${profile.university}${profile.role}`);
     setText("[data-profile-location]", profile.location);
     setHref("[data-profile-email]", `mailto:${profile.email}`);
     setHref("[data-profile-github]", profile.socials.github);

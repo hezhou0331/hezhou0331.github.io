@@ -22,26 +22,12 @@
     "Embodied AI",
     "Visual Understanding"
   ],
-  "campusExperience": [
-    {
-      "label": "GPA",
-      "value": "4.00/4.00"
-    },
-    {
-      "label": "Major Courses",
-      "items": [
-        "Artificial Intelligence Principles",
-        "Signal and System Analysis"
-      ]
-    },
-    {
-      "label": "Leadership & Service",
-      "items": [
-        "Class Leader, Tsinghua University AI-Driven Personalized Learning Class",
-        "Leader, Automation Department Practical Volunteer Group",
-        "Hardware Department Member, Automation Department Science and Technology Association"
-      ]
-    }
+  "campusExperienceLines": [
+    "GPA: 4.00/4.00 | Credits Completed: 71",
+    "Major Courses: Artificial Intelligence Principles; Signal and System Analysis",
+    "Class Leader, Tsinghua University AI-Driven Personalized Learning Class",
+    "Leader, Automation Department Practical Volunteer Group",
+    "Hardware Department Member, Automation Department Science and Technology Association"
   ],
   "awards": [
     {

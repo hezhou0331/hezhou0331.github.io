@@ -26,7 +26,7 @@ There is no build step.
 
 ## Deploy to GitHub Pages
 
-Push changes to the `main` branch of `hezhou0331.github.io`. The included GitHub Actions workflow builds the Hugo site and deploys it to:
+Push changes to the `main` branch of `hezhou0331.github.io`. The included GitHub Actions workflow publishes the static site to:
 
 ```text
 https://hezhou0331.github.io/

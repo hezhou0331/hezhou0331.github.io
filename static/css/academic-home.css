@@ -207,41 +207,18 @@ h2 {
 
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
+  gap: 10px;
 }
 
-.experience-card {
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
-  box-shadow: 0 8px 22px rgba(18, 38, 63, 0.04);
-}
-
-.experience-card h3 {
-  margin-bottom: 10px;
-  color: var(--accent);
-  font-size: 0.86rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.experience-value {
+.experience-line {
   margin-bottom: 0;
-  color: var(--text);
-  font-size: 1.4rem;
-  font-weight: 800;
-}
-
-.experience-card ul {
-  padding-left: 18px;
-  margin: 0;
   color: var(--muted);
+  font-size: 1.04rem;
 }
 
-.experience-card li + li {
-  margin-top: 8px;
+.experience-line strong {
+  color: var(--text);
+  font-weight: 800;
 }
 
 .award-grid {
@@ -321,9 +298,6 @@ h2 {
     padding: 48px 0 64px;
   }
 
-  .experience-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 560px) {

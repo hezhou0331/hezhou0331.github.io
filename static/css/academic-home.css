@@ -210,10 +210,16 @@ h2 {
   gap: 10px;
 }
 
+.section-lines {
+  display: grid;
+  gap: 16px;
+}
+
 .experience-line {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 1.04rem;
+  line-height: 1.85;
 }
 
 .experience-line strong {

@@ -77,7 +77,20 @@
     },
     {
       "title": "项目经历",
-      "text": "即将更新。"
+      "items": [
+        {
+          "title": "SRT",
+          "text": "机器人的多模态协同感知与并发多任务实现：对多模态感知、机器人系统运行逻辑有了直观理解，也熟悉了科研项目从方案到落地的基本流程。"
+        },
+        {
+          "title": "科研实习",
+          "text": "在求之科技参与 World Action Model 的研发工作，主要负责模型开发、实验迭代与相关技术验证。"
+        },
+        {
+          "title": "ATEC2026",
+          "text": "AI and Robotics Real-World Extreme Challenge 人工智能与机器人真实世界极限挑战比赛。"
+        }
+      ]
     }
   ]
 }

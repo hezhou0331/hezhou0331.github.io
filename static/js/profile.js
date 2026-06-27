@@ -105,7 +105,21 @@ fetch("data/profile.json")
     if (sections) {
       sections.replaceChildren(...data.sections.map((item) => {
         const section = createElement("section", "section placeholder-section");
-        section.append(createElement("h2", "", item.title), createElement("p", "", item.text));
+        section.append(createElement("h2", "", item.title));
+        if (Array.isArray(item.items)) {
+          const list = createElement("div", "section-lines");
+          list.replaceChildren(...item.items.map((entry) => {
+            const row = createElement("p", "experience-line");
+            if (entry.title) {
+              row.append(createElement("strong", "", `${entry.title}: `));
+            }
+            row.append(document.createTextNode(entry.text || ""));
+            return row;
+          }));
+          section.append(list);
+        } else {
+          section.append(createElement("p", "", item.text));
+        }
         return section;
       }));
     }

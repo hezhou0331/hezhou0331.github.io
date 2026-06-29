@@ -39,6 +39,13 @@
       "certificate": "data/image/人工智能挑战赛特等奖.jpg"
     },
     {
+      "title": "清华大学三好学生",
+      "description": "表彰德智体美劳全面发展和多样成长的全日制在校学生的校级荣誉。",
+      "year": "2026",
+      "icon": "award",
+      "logo": "data/image/tsinghua.jpg"
+    },
+    {
       "title": "全国大学生物理竞赛（地区赛）",
       "description": "一等奖",
       "year": "2025",
@@ -52,13 +59,6 @@
       "icon": "star",
       "logo": "data/image/tsinghua.jpg",
       "certificate": "data/image/清茶烛光实践金奖.pdf"
-    },
-    {
-      "title": "清华大学三好学生",
-      "description": "表彰德智体美劳全面发展和多样成长的全日制在校学生的校级荣誉。",
-      "year": "2026",
-      "icon": "award",
-      "logo": "data/image/tsinghua.jpg"
     },
     {
       "title": "清华大学第二十一届「清锋明辩」辩论文化节",

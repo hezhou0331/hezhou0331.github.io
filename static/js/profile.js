@@ -23,6 +23,15 @@ const createElement = (tag, className, text) => {
   return element;
 };
 
+const createAwardTitle = (title) => {
+  const heading = createElement("h3");
+  const lines = title.split(" & ");
+  heading.replaceChildren(...lines.flatMap((line, index) => (
+    index === 0 ? [line] : [document.createElement("br"), line]
+  )));
+  return heading;
+};
+
 const pageVersion = new URLSearchParams(window.location.search).get("v");
 const profileDataUrl = pageVersion
   ? `data/profile.json?v=${encodeURIComponent(pageVersion)}`
@@ -98,7 +107,7 @@ fetch(profileDataUrl)
         }
 
         const body = document.createElement("div");
-        body.append(createElement("h3", "", award.title), createElement("p", "", award.description));
+        body.append(createAwardTitle(award.title), createElement("p", "", award.description));
         if (certificates.length === 1) {
           body.append(createElement("p", "award-certificate", certificates[0].label));
         } else if (certificates.length > 1) {

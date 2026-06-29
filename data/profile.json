@@ -54,6 +54,13 @@
       "certificate": "data/image/清茶烛光实践金奖.pdf"
     },
     {
+      "title": "清华大学三好学生",
+      "description": "覆盖所有全日制在校学生的校级荣誉，旨在表彰深入贯彻党的教育方针，践行价值塑造、能力培养、知识传授“三位一体”教育理念，体现德智体美劳全面发展和多样成长的学生。",
+      "year": "2025",
+      "icon": "award",
+      "logo": "data/image/tsinghua.jpg"
+    },
+    {
       "title": "清华大学第二十一届「清锋明辩」辩论文化节",
       "description": "自动化-日新联队 冠军",
       "year": "2024",

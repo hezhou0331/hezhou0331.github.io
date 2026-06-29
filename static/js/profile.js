@@ -23,7 +23,12 @@ const createElement = (tag, className, text) => {
   return element;
 };
 
-fetch("data/profile.json")
+const pageVersion = new URLSearchParams(window.location.search).get("v");
+const profileDataUrl = pageVersion
+  ? `data/profile.json?v=${encodeURIComponent(pageVersion)}`
+  : "data/profile.json";
+
+fetch(profileDataUrl)
   .then((response) => response.json())
   .then((data) => {
     const profile = data.profile;

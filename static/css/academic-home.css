@@ -299,6 +299,22 @@ h2 {
   font-weight: 800;
 }
 
+.award-certificates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 8px;
+}
+
+.award-certificates .award-certificate {
+  margin-top: 0;
+  text-decoration: none;
+}
+
+.award-certificates .award-certificate:hover {
+  text-decoration: underline;
+}
+
 .award-card time {
   color: var(--muted);
   font-weight: 800;

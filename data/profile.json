@@ -58,7 +58,16 @@
       "year": "2025",
       "icon": "star",
       "logo": "data/image/tsinghua.jpg",
-      "certificate": "data/image/清茶烛光实践金奖.pdf"
+      "certificates": [
+        {
+          "label": "清华大学学生社会实践金奖支队",
+          "url": "data/image/清茶烛光实践金奖.pdf"
+        },
+        {
+          "label": "首都大学生暑期社会实践优秀学生团队",
+          "url": "data/image/2025年度首都大学生暑期社会实践展示交流活动优秀学生团队.jpg"
+        }
+      ]
     },
     {
       "title": "清华大学第二十一届「清锋明辩」辩论文化节",

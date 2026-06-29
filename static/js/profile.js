@@ -69,11 +69,14 @@ fetch("data/profile.json")
     const awards = document.querySelector("[data-awards]");
     if (awards) {
       awards.replaceChildren(...data.awards.map((award) => {
-        const card = award.certificate
+        const certificates = award.certificates || (award.certificate
+          ? [{ label: "查看获奖材料", url: award.certificate }]
+          : []);
+        const card = certificates.length === 1
           ? createElement("a", "award-card award-link")
           : createElement("article", "award-card");
-        if (award.certificate) {
-          card.href = award.certificate;
+        if (certificates.length === 1) {
+          card.href = certificates[0].url;
           card.target = "_blank";
           card.rel = "noopener noreferrer";
           card.setAttribute("aria-label", `查看获奖材料：${award.title}`);
@@ -91,8 +94,18 @@ fetch("data/profile.json")
 
         const body = document.createElement("div");
         body.append(createElement("h3", "", award.title), createElement("p", "", award.description));
-        if (award.certificate) {
-          body.append(createElement("p", "award-certificate", "查看获奖材料"));
+        if (certificates.length === 1) {
+          body.append(createElement("p", "award-certificate", certificates[0].label));
+        } else if (certificates.length > 1) {
+          const certificateList = createElement("div", "award-certificates");
+          certificateList.replaceChildren(...certificates.map((certificate) => {
+            const link = createElement("a", "award-certificate", certificate.label);
+            link.href = certificate.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            return link;
+          }));
+          body.append(certificateList);
         }
 
         const year = createElement("time", "", award.year);

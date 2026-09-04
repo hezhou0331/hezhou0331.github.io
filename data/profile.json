@@ -32,7 +32,7 @@
   "awards": [
     {
       "title": "第九届清华大学人工智能挑战赛“云厂竞逐战”强化学习赛道",
-      "description": "强化学习赛道 特等奖（第一名）",
+      "description": "对比多种 PPO 方案与规则策略，针对比赛环境设计基于状态与任务目标的规则化决策逻辑；实测表现优于已训练的 PPO 策略，获强化学习赛道特等奖（第一名）。",
       "year": "2026",
       "icon": "spark",
       "logo": "data/image/tsinghua.jpg",
@@ -112,8 +112,8 @@
           "text": "参与机器人多模态协同感知与并发多任务系统的实现，了解机器人系统的运行逻辑，并熟悉科研项目从方案设计到真机落地的基本流程。"
         },
         {
-          "title": "ATEC2026",
-          "text": "参与 AI and Robotics Real-World Extreme Challenge，主要负责基于 YOLO 的目标识别与四足机器人 SLAM 导航。完成视觉识别链路的适配与调试，并参与建图、定位、路径规划及导航模块联调；通过真实环境下的测试与问题排查，积累机器人感知、定位和导航系统的真机实践经验。"
+          "title": "ATEC 2026",
+          "text": "参与 AI and Robotics Real-World Extreme Challenge，负责机器人视觉感知、数据工具与 SLAM 导航系统开发。使用 YOLO11-seg 完成九类目标实例分割（Mask mAP50–95 87.01%），结合 SAM2 与 FoundationPose 支持标注传播和 6D 位姿估计；开发桌面应用，整合 RGB-D 数据采集、标注审核、模型训练与实时识别。基于 ROS 2、Nav2、SLAM Toolbox 和 Gazebo，完成 Unitree A2+P7 的建图、定位、RPP 路径跟踪、双目标绕障及 SDK2 控制接口适配，搭建可重复验证的导航仿真系统，并积累真机调试经验。"
         }
       ]
     }

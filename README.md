@@ -8,15 +8,20 @@ Most homepage content lives in `data/profile.json`:
 
 - `profile`: name, role, university, location, avatar, email, and social links
 - `aboutMe`: short biography paragraphs
-- `researchInterests`: tags shown under About Me
-- `awards`: selected awards shown as cards
-- `sections`: placeholder sections such as Publications, Projects, and Experience
+- `researchInterests`: research topics shown under About Me
+- `campusExperienceLines`: academic and campus activities
+- `awards`: dated award entries and certificate links
+- `sections`: Publications, Projects, and Experience, matched to page sections by `id`
+
+The page uses a white academic layout with a sticky navigation bar, a profile sidebar,
+and responsive content lists. Edit `index.html` when changing section order or headings.
+Keep the short biography fallback and description in `index.html` in sync with the JSON.
 
 The avatar is served from `static/profile.jpg`. Replace that file to update the photo.
 
 ## Local Preview
 
-Open `index.html` in a browser, or serve the folder with any static server:
+Serve the folder with any static server (opening the file directly will block JSON loading):
 
 ```bash
 npx serve .

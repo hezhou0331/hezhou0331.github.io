@@ -3,62 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jiangyu Liu | 个人主页</title>
-  <meta name="description" content="刘江宇，清华大学自动化系本科生。研究兴趣包括世界动作模型和三维计算机视觉。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/academic-home.css?v=20260629-125027">
+  <title>Jiangyu Liu · 刘江宇 | 个人主页</title>
+  <meta name="description" content="刘江宇，清华大学自动化系本科生，目前在丁宁老师课题组。关注 Agent 与机器人控制、强化学习、VLA、世界模型和三维视觉。">
+  <link rel="stylesheet" href="static/css/academic-home.css?v=20260921">
+  <link rel="icon" href="static/favicon.svg" type="image/svg+xml">
 </head>
 <body>
+  <a class="skip-link" href="#main">跳转至正文</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="页面导航">
+      <a class="site-brand" href="#about">Jiangyu Liu <span>主页</span></a>
+      <div class="nav-links">
+        <a href="#about">关于我</a>
+        <a href="#experience">实习经历</a>
+        <a href="#projects">项目经历</a>
+        <a href="#campus">教育与校园</a>
+        <a href="#awards">荣誉奖项</a>
+        <a href="#publications">论文发表</a>
+      </div>
+    </nav>
+  </header>
   <div class="site-shell">
-    <aside class="profile-sidebar" aria-label="Profile">
-      <div class="profile-card">
-        <img class="avatar" data-profile-avatar src="static/profile.jpg" alt="Jiangyu Liu">
+    <aside class="profile-sidebar" aria-label="个人信息">
+      <img class="avatar" data-profile-avatar src="static/profile.jpg" alt="刘江宇的照片" width="176" height="176">
+      <div class="profile-details">
         <h1 data-profile-name>Jiangyu Liu</h1>
         <p class="chinese-name" data-profile-name-chinese>刘江宇</p>
         <p class="role" data-profile-role>清华大学自动化系本科生</p>
-        <p class="location"><span aria-hidden="true">⌖</span><span data-profile-location>Beijing, China</span></p>
-
-        <nav class="social-links" aria-label="Contact links">
-          <a data-profile-email href="mailto:jy-liu24@mails.tsinghua.edu.cn" aria-label="Email Jiangyu Liu">
+        <p class="affiliation" data-profile-affiliation>丁宁老师课题组</p>
+        <p class="location"><span aria-hidden="true">⌖</span> <span data-profile-location>北京，中国</span></p>
+        <nav class="social-links" aria-label="联系方式">
+          <a data-profile-email href="mailto:jy-liu24@mails.tsinghua.edu.cn">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 6.75h15A1.5 1.5 0 0 1 21 8.25v7.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 15.75v-7.5a1.5 1.5 0 0 1 1.5-1.5Zm.84 1.5L12 13.06l6.66-4.81H5.34Zm14.16 1.4-7.06 5.1a.75.75 0 0 1-.88 0L4.5 9.65v6.1h15v-6.1Z"/></svg>
+            <span>Email</span>
           </a>
-          <a data-profile-github href="https://github.com/hezhou0331" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <img src="data/image/github.png" alt="">
+          <a data-profile-github href="https://github.com/hezhou0331" target="_blank" rel="noopener noreferrer">
+            <img src="data/image/github.png" alt="" width="18" height="18"><span>GitHub</span>
           </a>
-          <a data-profile-scholar href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+          <a data-profile-scholar href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1.8 11.1 12 19.2l10.2-8.1L12 3Zm0 2.45 6.32 5.02H5.68L12 5.45Zm-4.43 7.02h8.86L12 15.98l-4.43-3.51ZM6.2 15.7a5.8 5.8 0 1 0 11.6 0h-2a3.8 3.8 0 1 1-7.6 0h-2Z"/></svg>
+            <span>Google Scholar</span>
           </a>
         </nav>
+        <a class="email-address" data-profile-email-text href="mailto:jy-liu24@mails.tsinghua.edu.cn">jy-liu24@mails.tsinghua.edu.cn</a>
       </div>
     </aside>
-
-    <main class="main-content">
-      <section class="section about" id="about">
-        <p class="eyebrow">个人主页</p>
-        <h2>关于我</h2>
+    <main class="main-content" id="main">
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title"><span aria-hidden="true">👋</span> 关于我 <span class="heading-en" lang="en">About Me</span></h2>
         <div data-about>
-          <p>我是清华大学自动化系本科生。</p>
-          <p>目前我的研究兴趣包括世界动作模型和三维计算机视觉。</p>
+          <p>我是清华大学自动化系本科生，目前在丁宁老师课题组。</p>
+          <p>我目前最感兴趣的是用智能体（Agent）控制机器人，探索如何让机器人理解任务、规划行动，并与真实环境交互。同时，我也对强化学习（RL）、视觉—语言—动作模型（VLA）、世界模型和三维视觉很感兴趣，希望进一步理解这些方向如何帮助机器人感知环境、预测变化，并在交互中学习和完成任务。</p>
+          <p>我的研究之旅才刚刚开始，很享受在学习和实践中探索新问题。科研之外，我喜欢打乒乓球，也热爱志愿工作。欢迎约球、约饭，或聊聊科研与志愿活动！</p>
         </div>
-        <div class="interest-list" data-interests aria-label="Research interests"></div>
+        <div class="research-interests"><strong>研究兴趣</strong><div class="interest-list" data-interests></div></div>
       </section>
-
-      <section class="section" id="campus">
-        <h2>校园经历</h2>
-        <div class="experience-grid" data-campus-experience></div>
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title"><span aria-hidden="true">💼</span> 实习经历 <span class="heading-en" lang="en">Experience</span></h2>
+        <div data-section="experience"></div>
       </section>
-
-      <section class="section" id="awards">
-        <h2>获奖经历</h2>
-        <div class="award-grid" data-awards></div>
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title"><span aria-hidden="true">🛠️</span> 项目经历 <span class="heading-en" lang="en">Projects</span></h2>
+        <div data-section="projects"></div>
       </section>
-
-      <div data-sections></div>
+      <section class="section" id="campus" aria-labelledby="campus-title">
+        <h2 id="campus-title"><span aria-hidden="true">📖</span> 教育与校园 <span class="heading-en" lang="en">Education &amp; Campus</span></h2>
+        <p class="education-title">清华大学 <span>自动化系 · 本科生</span></p>
+        <ul class="campus-list" data-campus-experience></ul>
+      </section>
+      <section class="section" id="awards" aria-labelledby="awards-title">
+        <h2 id="awards-title"><span aria-hidden="true">🎖️</span> 荣誉奖项 <span class="heading-en" lang="en">Honors &amp; Awards</span></h2>
+        <ul class="award-list" data-awards></ul>
+      </section>
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title"><span aria-hidden="true">📝</span> 论文发表 <span class="heading-en" lang="en">Publications</span></h2>
+        <div data-section="publications"></div>
+      </section>
+      <p class="load-error" role="status" hidden>完整内容暂时未能加载，请刷新页面重试。</p>
+      <noscript><p>请启用 JavaScript 以查看完整经历与获奖材料。</p></noscript>
+      <footer class="site-footer">Jiangyu Liu · 刘江宇</footer>
     </main>
   </div>
-
-  <script src="static/js/profile.js?v=20260629-125027"></script>
+  <script src="static/js/profile.js?v=20260921" defer></script>
 </body>
 </html>

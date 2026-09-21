@@ -43,7 +43,6 @@ h1 { font-size: 25px; line-height: 1.25; letter-spacing: -0.6px; margin-bottom: 
 .social-links a { display: flex; align-items: center; gap: 9px; color: var(--text); font-size: 13px; width: fit-content; }
 .social-links a:hover { color: var(--accent); }
 .social-links svg, .social-links img { width: 17px; height: 17px; object-fit: contain; fill: currentColor; }
-.email-address { font-size: 11px; overflow-wrap: anywhere; }
 .main-content { min-width: 0; }
 .section { margin-bottom: 39px; }
 h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; font-size: 23px; line-height: 1.5; padding-bottom: 9px; margin-bottom: 19px; border-bottom: 1px solid var(--line); font-weight: 650; }
@@ -68,7 +67,6 @@ h2 > span:first-child { font-size: 23px; }
 .award-year { color: var(--muted); font-size: 13px; padding-top: 2px; font-variant-numeric: tabular-nums; }
 .award-row h3 { font-size: 14px; line-height: 1.8; font-weight: 600; margin-bottom: 3px; }
 .award-row p { color: #656b70; font-size: 13px; margin-bottom: 0; }
-.award-certificates { display: flex; flex-wrap: wrap; gap: 2px 16px; margin-top: 4px; font-size: 12px; }
 .site-footer { padding: 20px 0 30px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
 .load-error { color: #a04421; }
 [data-section="publications"] { color: var(--muted); font-size: 14px; }
@@ -94,7 +92,6 @@ h2 > span:first-child { font-size: 23px; }
   .chinese-name { font-size: 15px; margin-bottom: 8px; }
   .location { margin: 9px 0 7px; }
   .social-links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 3px; }
-  .email-address { font-size: 12px; }
 }
 @media (max-width: 480px) {
   body { font-size: 14px; }

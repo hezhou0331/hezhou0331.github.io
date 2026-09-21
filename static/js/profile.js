@@ -12,7 +12,7 @@ const setHref = (selector, value) => {
   const element = document.querySelector(selector);
   if (element && value) element.href = value;
 };
-const pageVersion = new URLSearchParams(window.location.search).get("v") || "20260921";
+const pageVersion = new URLSearchParams(window.location.search).get("v") || "20260921-2";
 fetch(`data/profile.json?v=${encodeURIComponent(pageVersion)}`)
   .then((response) => {
     if (!response.ok) throw new Error(`Profile request failed: ${response.status}`);
@@ -26,9 +26,7 @@ fetch(`data/profile.json?v=${encodeURIComponent(pageVersion)}`)
     setText("[data-profile-role]", profile.subtitle || `${profile.university}${profile.role}`);
     setText("[data-profile-affiliation]", profile.affiliation);
     setText("[data-profile-location]", profile.location);
-    setText("[data-profile-email-text]", profile.email);
     setHref("[data-profile-email]", `mailto:${profile.email}`);
-    setHref("[data-profile-email-text]", `mailto:${profile.email}`);
     setHref("[data-profile-github]", profile.socials.github);
     setHref("[data-profile-scholar]", profile.socials.googleScholar);
     const avatar = document.querySelector("[data-profile-avatar]");
@@ -55,21 +53,6 @@ fetch(`data/profile.json?v=${encodeURIComponent(pageVersion)}`)
       year.dateTime = award.year;
       const body = createElement("div");
       body.append(createElement("h3", "", award.title), createElement("p", "", award.description));
-      const certificates = award.certificates || (award.certificate
-        ? [{ label: "查看获奖材料", url: award.certificate }]
-        : []);
-      if (certificates.length) {
-        const links = createElement("div", "award-certificates");
-        links.append(...certificates.map((certificate) => {
-          const link = createElement("a", "", `${certificate.label} ↗`);
-          link.href = certificate.url;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.setAttribute("aria-label", `${certificate.label}：${award.title}（新窗口打开）`);
-          return link;
-        }));
-        body.append(links);
-      }
       row.append(year, body);
       return row;
     }));

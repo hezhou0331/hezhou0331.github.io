@@ -10,7 +10,7 @@ Most homepage content lives in `data/profile.json`:
 - `aboutMe`: short biography paragraphs
 - `researchInterests`: research topics shown under About Me
 - `campusExperienceLines`: academic and campus activities
-- `awards`: dated award entries and certificate links
+- `awards`: dated award entries and descriptions (certificate metadata is retained but not displayed)
 - `sections`: Publications, Projects, and Experience, matched to page sections by `id`
 
 The page uses a white academic layout with a sticky navigation bar, a profile sidebar,

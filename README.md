@@ -4,7 +4,12 @@ This repository contains a minimal academic personal website for GitHub Pages.
 
 ## Edit Content
 
-Most homepage content lives in `data/profile.json`:
+Homepage content lives in `data/profile.en.json` (English) and `data/profile.json` (Chinese).
+Keep factual updates, dates, grades, and entry order consistent across both files.
+First-time visitors see English. The EN / 中文 controls switch all page content and
+remember the selection locally. `?lang=en` and `?lang=zh` override the saved choice
+and can be used to share a particular language version. Navigation labels and page
+metadata are translated in `static/js/profile.js`.
 
 - `profile`: name, role, university, location, avatar, email, and social links
 - `aboutMe`: short biography paragraphs
@@ -15,7 +20,7 @@ Most homepage content lives in `data/profile.json`:
 
 The page uses a white academic layout with a sticky navigation bar, a profile sidebar,
 and responsive content lists. Edit `index.html` when changing section order or headings.
-Keep the short biography fallback and description in `index.html` in sync with the JSON.
+Keep the English biography fallback and description in `index.html` in sync with the English JSON.
 
 The avatar is served from `static/profile.jpg`. Replace that file to update the photo.
 

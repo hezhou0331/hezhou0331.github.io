@@ -5,25 +5,22 @@
     "role": "Undergraduate",
     "university": "Tsinghua University",
     "subtitle": "Undergraduate, Department of Automation, Tsinghua University",
-    "affiliation": "Ning Ding's Research Group",
     "location": "Beijing, China",
     "avatar": "static/profile.jpg",
     "email": "jy-liu24@mails.tsinghua.edu.cn",
     "socials": {
-      "github": "https://github.com/hezhou0331",
-      "googleScholar": "https://scholar.google.com/"
+      "github": "https://github.com/hezhou0331"
     }
   },
   "aboutMe": [
-    "I am an undergraduate in the Department of Automation at Tsinghua University, currently working in Ning Ding's research group.",
-    "I am especially interested in using agents to control robots: how they can understand tasks, plan actions, and interact with the physical world. I am also interested in reinforcement learning (RL), vision-language-action models (VLA), world models, and 3D vision, and how these approaches can help robots perceive their surroundings, anticipate changes, and learn to accomplish tasks through interaction.",
-    "I am still at the beginning of my research journey and enjoy exploring new questions through learning and hands-on work. Outside research, I enjoy table tennis and volunteering. Feel free to reach out for a game, a meal, or a chat about research and volunteer activities!"
+    "I am an undergraduate in the Department of Automation at Tsinghua University.",
+    "My research interests include visual representation learning, video generation, and embodied learning. I am interested in learning geometry and motion from visual observations and using these representations for robot action prediction and generalization. My recent work focuses on motion representations for world action models and stereo video VAEs.",
+    "Outside research, I enjoy table tennis and volunteering. Feel free to reach out for a game, a meal, or a conversation about research and volunteering!"
   ],
   "researchInterests": [
-    "Agents & Robot Control",
-    "Reinforcement Learning",
-    "VLA Models",
-    "World Models",
+    "Visual Representation Learning",
+    "Video Generation",
+    "Embodied Learning",
     "3D Vision"
   ],
   "campusExperienceLines": [
@@ -34,7 +31,7 @@
   "awards": [
     {
       "title": "9th Tsinghua University AI Challenge — Reinforcement Learning Track",
-      "description": "Grand Prize, Reinforcement Learning Track (1st Place)",
+      "description": "Grand Prize, Reinforcement Learning Track (individual 1st Place)",
       "year": "2026"
     },
     {
@@ -65,21 +62,16 @@
   ],
   "sections": [
     {
-      "id": "publications",
-      "title": "Publications",
-      "text": "Coming soon."
-    },
-    {
       "id": "experience",
       "title": "Experience",
       "items": [
         {
           "title": "Anyverse Dynamics | Algorithm Intern (Mar–Jun 2026)",
-          "text": "Gained hands-on experience fine-tuning π0 with LoRA and working with embodied AI training pipelines. Worked on world action model (WAM) development and inference optimization, drawing on Fast-WAM and Motus. Analyzed the Motus inference pipeline, iterated on acceleration experiments, and completed technical validation, building familiarity with WAMs and research engineering workflows."
+          "text": "Reproduced LoRA fine-tuning for π0 and inference pipelines for Fast-WAM and Motus. Profiled world action models to identify key computational paths and performance bottlenecks."
         },
         {
-          "title": "DISCOVER Robotics | Algorithm Intern (Jun–Sep 2026)",
-          "text": "Contributed to foundation model development and 3D perception. Integrated motion representations from ZipMo into Fast-WAM to improve generalization across tasks and environments. Designed and evaluated a tokenizer for stereo visual inputs, exploring how binocular geometry can support embodied perception and action modeling."
+          "title": "DISCOVER Robotics | Internship: Model Training & Evaluation (Jun–Sep 2026)",
+          "text": "Conducted training and evaluation experiments for world action models augmented with motion representations, investigating ZipMo motion tokens and an auxiliary motion prediction loss in Fast-WAM. Also conducted stereo video VAE experiments on RGB reconstruction and disparity prediction, including training and small-dataset overfitting checks."
         }
       ]
     },
@@ -88,12 +80,12 @@
       "title": "Projects",
       "items": [
         {
-          "title": "Student Research Training (SRT)",
-          "text": "Contributed to a robotic system for multimodal collaborative perception and concurrent task execution. Gained experience with robot system operation and the research process from initial design to deployment on physical robots."
+          "title": "Tsinghua University AI Challenge | Reinforcement Learning Track",
+          "text": "Compared PPO variants with rule-based strategies and designed decision rules based on game state and objectives. The rule-based strategy outperformed the trained PPO baselines; received the track Grand Prize (individual 1st Place)."
         },
         {
           "title": "ATEC 2026",
-          "text": "Participated in the AI and Robotics Real-World Extreme Challenge, working on robot vision, data tools, and SLAM-based navigation. Used YOLO11-seg for nine-class instance segmentation (mask mAP50–95: 87.01%), with SAM2 and FoundationPose for annotation propagation and 6D pose estimation. Built a desktop application integrating RGB-D data collection, annotation review, model training, and live recognition. Using ROS 2, Nav2, SLAM Toolbox, and Gazebo, implemented mapping, localization, RPP path tracking, two-goal navigation with obstacle avoidance, and SDK2 control integration for the Unitree A2+P7. Built a repeatable navigation simulation setup and gained experience testing on physical robots."
+          "text": "Contributed to robot visual recognition and navigation, including functional debugging and simulation validation."
         }
       ]
     }

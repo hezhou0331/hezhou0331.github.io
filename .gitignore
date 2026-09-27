@@ -22,3 +22,6 @@ Desktop.ini
 # Logs
 *.log
 npm-debug.log*
+
+# CV PDFs are local only, not part of the public website.
+/static/cv/

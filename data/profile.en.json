@@ -16,13 +16,12 @@
   },
   "aboutMe": [
     "I am an undergraduate in the Department of Automation at Tsinghua University, currently working in Ning Ding's research group.",
-    "I am especially interested in using agents to control robots: how they can understand tasks, plan actions, and interact with the physical world. I am also interested in reinforcement learning (RL), vision-language-action models (VLA), world models, and 3D vision, and how these approaches can help robots perceive their surroundings, anticipate changes, and learn to accomplish tasks through interaction.",
+    "I am especially interested in using agents to control robots: how they can understand tasks, plan actions, and interact with the physical world. I am also interested in reinforcement learning (RL), world models, and 3D vision, and how these approaches can help robots perceive their surroundings, anticipate changes, and learn to accomplish tasks through interaction.",
     "I am still at the beginning of my research journey and enjoy exploring new questions through learning and hands-on work. Outside research, I enjoy table tennis and volunteering. Feel free to reach out for a game, a meal, or a chat about research and volunteer activities!"
   ],
   "researchInterests": [
     "Agents & Robot Control",
     "Reinforcement Learning",
-    "VLA Models",
     "World Models",
     "3D Vision"
   ],

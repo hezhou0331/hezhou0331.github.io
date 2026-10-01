@@ -7,7 +7,7 @@ const translations = {
     university: "Tsinghua University", education: "Department of Automation · Undergraduate",
     loadError: "Unable to load the full content. Please refresh and try again.",
     title: "Jiangyu Liu | Homepage", navigation: "Main navigation", profile: "Profile", contact: "Contact links",
-    description: "Jiangyu Liu, an undergraduate at Tsinghua University. Interested in visual representation learning, video generation, embodied learning, and 3D vision."
+    description: "Jiangyu Liu, an undergraduate at Tsinghua University in Ning Ding's research group. Interested in agents for robot control, RL, VLA models, world models, and 3D vision."
   },
   zh: {
     home: "主页", skip: "跳转至正文", navabout: "关于我", navexperience: "实习经历",
@@ -17,7 +17,7 @@ const translations = {
     university: "清华大学", education: "自动化系 · 本科生",
     loadError: "完整内容暂时未能加载，请刷新页面重试。",
     title: "Jiangyu Liu · 刘江宇 | 个人主页", navigation: "页面导航", profile: "个人信息", contact: "联系方式",
-    description: "刘江宇，清华大学自动化系本科生。关注视觉表征学习、视频生成、具身学习与三维视觉。"
+    description: "刘江宇，清华大学自动化系本科生，目前在丁宁老师课题组。关注 Agent 与机器人控制、强化学习、VLA、世界模型和三维视觉。"
   }
 };
 const createElement = (tag, className, text) => {
@@ -53,9 +53,11 @@ function renderProfile(data, language) {
   setText("[data-profile-name]", profile.name);
   setText("[data-profile-name-chinese]", profile.nameChinese);
   setText("[data-profile-role]", profile.subtitle);
+  setText("[data-profile-affiliation]", profile.affiliation);
   setText("[data-profile-location]", profile.location);
   setHref("[data-profile-email]", `mailto:${profile.email}`);
   setHref("[data-profile-github]", profile.socials.github);
+  setHref("[data-profile-scholar]", profile.socials.googleScholar);
   const avatar = document.querySelector("[data-profile-avatar]");
   avatar.src = profile.avatar.replace(/^\//, "");
   avatar.alt = language === "zh" ? `${profile.nameChinese}的照片` : profile.name;
@@ -102,7 +104,7 @@ function renderProfile(data, language) {
   });
 }
 
-const pageVersion = "20260928-5";
+const pageVersion = "20261001-1";
 const storageKey = "homepage-language";
 const profileCache = new Map();
 let languageRequest = 0;

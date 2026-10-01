@@ -5,22 +5,25 @@
     "role": "Undergraduate",
     "university": "Tsinghua University",
     "subtitle": "Undergraduate, Department of Automation, Tsinghua University",
+    "affiliation": "Ning Ding's Research Group",
     "location": "Beijing, China",
     "avatar": "static/profile.jpg",
     "email": "jy-liu24@mails.tsinghua.edu.cn",
     "socials": {
-      "github": "https://github.com/hezhou0331"
+      "github": "https://github.com/hezhou0331",
+      "googleScholar": "https://scholar.google.com/"
     }
   },
   "aboutMe": [
-    "I am an undergraduate in the Department of Automation at Tsinghua University.",
-    "My research interests include visual representation learning, video generation, and embodied learning. I am interested in learning geometry and motion from visual observations and using these representations for robot action prediction and generalization. My recent work focuses on motion representations for world action models and stereo video VAEs.",
-    "Outside research, I enjoy table tennis and volunteering. Feel free to reach out for a game, a meal, or a conversation about research and volunteering!"
+    "I am an undergraduate in the Department of Automation at Tsinghua University, currently working in Ning Ding's research group.",
+    "I am especially interested in using agents to control robots: how they can understand tasks, plan actions, and interact with the physical world. I am also interested in reinforcement learning (RL), vision-language-action models (VLA), world models, and 3D vision, and how these approaches can help robots perceive their surroundings, anticipate changes, and learn to accomplish tasks through interaction.",
+    "I am still at the beginning of my research journey and enjoy exploring new questions through learning and hands-on work. Outside research, I enjoy table tennis and volunteering. Feel free to reach out for a game, a meal, or a chat about research and volunteer activities!"
   ],
   "researchInterests": [
-    "Visual Representation Learning",
-    "Video Generation",
-    "Embodied Learning",
+    "Agents & Robot Control",
+    "Reinforcement Learning",
+    "VLA Models",
+    "World Models",
     "3D Vision"
   ],
   "campusExperienceLines": [
@@ -62,6 +65,11 @@
   ],
   "sections": [
     {
+      "id": "publications",
+      "title": "Publications",
+      "text": "Coming soon."
+    },
+    {
       "id": "experience",
       "title": "Experience",
       "items": [
@@ -80,8 +88,8 @@
       "title": "Projects",
       "items": [
         {
-          "title": "Tsinghua University AI Challenge | Reinforcement Learning Track",
-          "text": "Compared PPO variants with rule-based strategies and designed decision rules based on game state and objectives. The rule-based strategy outperformed the trained PPO baselines; received the track Grand Prize (individual 1st Place)."
+          "title": "Student Research Training (SRT)",
+          "text": "Contributed to a robotic system for multimodal collaborative perception and concurrent task execution. Gained experience with robot system operation and the research process from initial design to deployment on physical robots."
         },
         {
           "title": "ATEC 2026",

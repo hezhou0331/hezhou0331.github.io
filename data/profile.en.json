@@ -77,7 +77,7 @@
           "text": "Reproduced LoRA fine-tuning for π0 and inference pipelines for Fast-WAM and Motus. Profiled world action models to identify key computational paths and performance bottlenecks."
         },
         {
-          "title": "DISCOVER Robotics | Internship: Model Training & Evaluation (Jun–Sep 2026)",
+          "title": "DISCOVER Robotics | Foundation Model Intern (Jun–Sep 2026)",
           "text": "Conducted training and evaluation experiments for world action models augmented with motion representations, investigating ZipMo motion tokens and an auxiliary motion prediction loss in Fast-WAM. Also conducted stereo video VAE experiments on RGB reconstruction and disparity prediction, including training and small-dataset overfitting checks."
         }
       ]

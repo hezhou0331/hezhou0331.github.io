@@ -104,7 +104,7 @@ function renderProfile(data, language) {
   });
 }
 
-const pageVersion = "20261102-3";
+const pageVersion = "20261103-1";
 const storageKey = "homepage-language";
 const profileCache = new Map();
 let languageRequest = 0;

@@ -32,6 +32,11 @@
   ],
   "awards": [
     {
+      "title": "National Scholarship",
+      "description": "Undergraduate National Scholarship, China",
+      "year": "2026"
+    },
+    {
       "title": "9th Tsinghua University AI Challenge — Reinforcement Learning Track",
       "description": "Grand Prize, Reinforcement Learning Track (individual 1st Place)",
       "year": "2026"
@@ -45,21 +50,6 @@
       "title": "National College Student Physics Competition (Regional Round)",
       "description": "First Prize",
       "year": "2025"
-    },
-    {
-      "title": "Outstanding Student Team, Beijing College Student Summer Social Practice Showcase & Gold Award, Tsinghua University Student Social Practice",
-      "description": "Qingcha Zhuguang social practice team, Department of Automation",
-      "year": "2025"
-    },
-    {
-      "title": "21st Qingfeng Mingbian Debate Festival, Tsinghua University",
-      "description": "Champion, joint team of the Department of Automation and Rixin College",
-      "year": "2024"
-    },
-    {
-      "title": "Siyuan Program, Tsinghua University",
-      "description": "Student development program centered on gratitude and service to society.",
-      "year": "2024"
     }
   ],
   "sections": [
